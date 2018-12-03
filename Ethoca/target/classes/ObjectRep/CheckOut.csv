@@ -1,0 +1,12 @@
+ObjectName,ObjectProperties,SearchType
+CheckOutPage Table,checkout_cart,classname
+CheckOutPage Row,"//tr[contains(@class,'product_row product_row')]",xpath
+Productname_Cart,"//td[contains(@class,'wpsc_product_name')]",xpath
+Productqty_crt,"//td[contains(@class,'wpsc_product_quantity')]/form/input[1]",xpath
+Continue,Continue,linktext
+PurchaseSuccessPage,wpsc-transaction-results-wrap,classname
+PurchaseBtn,input-button-buy,classname
+AllWebElementsBillingDetails,"//input[contains(@class,'wpsc-visitor-meta')]",xpath
+AllWebElementsBillingTextArea,"//textarea[contains(@class,'wpsc-visitor-meta')]",xpath
+Country,"//select[contains(@class, 'current_country wpsc-visitor-meta wpsc-country-dropdown')][contains(@title, 'billingcountry')]",xpath
+SameBillingCheckBox,shippingSameBilling,id

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ShoppingCart" duration-ms="33921" started-at="2018-12-03T10:39:12Z" finished-at="2018-12-03T10:39:46Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="33921" started-at="2018-12-03T10:39:12Z" finished-at="2018-12-03T10:39:46Z">
+      <class name="com.ethoca.TestRunner.TestRunner">
+        <test-method status="PASS" signature="tRun(java.lang.String)[pri:0, instance:com.ethoca.TestRunner.TestRunner@eafc191]" name="tRun" duration-ms="33897" started-at="2018-12-03T10:39:12Z" finished-at="2018-12-03T10:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tRun -->
+      </class> <!-- com.ethoca.TestRunner.TestRunner -->
+    </test> <!-- Chrome -->
+  </suite> <!-- ShoppingCart -->
+</testng-results>

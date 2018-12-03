@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ShoppingCart"  verbose="10"  configfailurepolicy="continue">
+ 
+	<test name="Chrome">
+		 <parameter name="aut" value="Chrome"/>
+		  <classes>
+				<class name="com.ethoca.TestRunner.TestRunner" />
+		 </classes>
+	</test>
+</suite>
+
+

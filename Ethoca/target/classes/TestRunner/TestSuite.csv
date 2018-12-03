@@ -1,0 +1,2 @@
+TestName,TestClass,Execution,ExecutionType,Browser,BrowserVersion,OS,OSVersion
+TCHomePage,com.ethoca.Test.TCShoppingCartValidation,Yes,Chrome,Chrome,64,Windows,7

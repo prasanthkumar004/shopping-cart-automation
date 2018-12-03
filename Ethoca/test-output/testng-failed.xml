@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]">
+  <test thread-count="5" name="Shopping Cart(failed)">
+    <parameter name="environment" value="Chrome"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="osversion" value="7"/>
+    <parameter name="version" value="64"/>
+    <classes>
+      <class name="com.ethoca.Test.TCShoppingCartValidation">
+        <methods>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+          <include name="Verify_TCShoppingCartValidation"/>
+          <include name="getBrowserType"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="getBrowser"/>
+        </methods>
+      </class> <!-- com.ethoca.Test.TCShoppingCartValidation -->
+    </classes>
+  </test> <!-- Shopping Cart(failed) -->
+</suite> <!-- Failed suite [Automation] -->

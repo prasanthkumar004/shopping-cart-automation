@@ -1,0 +1,6 @@
+ObjectName,ObjectProperties,SearchType
+Prodcut titles,prodtitle,classname
+Add To Cart Button,wpsc_buy_button,classname
+Checkout ,cart_icon,classname
+Continue,Continue,linktext
+Contact Details,"//input[contains(@class,'wpsc-visitor-meta')]",xpath

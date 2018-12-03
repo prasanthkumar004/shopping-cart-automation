@@ -1,0 +1,3 @@
+ObjectName,ObjectProperties,SearchType
+Product Category Tab,Product Category,linktext
+Accessories,"//a[contains(.,'Accessories')]",xpath
